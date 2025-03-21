@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+.sec1{
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: space-between;  */
+    /* overflow: hidden; */
+    margin-left: 23px;
+}
+
+
+.sec1 picture img{
+    width: 372px;
+    height: 331px;
+}
+
+
+/* .sec1 .conatinerContainer1{
+    display: flex;
+    justify-content: flex-start;
+} */
+.sec1 .introduction{
+    width: 100%;
+    margin: 64px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 340px;
+    
+    align-self: flex-start;
+    
+ 
+}
+
+.sec1 .introduction h1{
+    font-size: 48px;
+    line-height: 48px;
+    color: var(--h-color);
+   
+    font-weight: 900;
+}
+
+.sec1 .introduction p{
+    color: var(--p-color);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+.sec1 .introduction div{
+    display: flex;
+    gap: 32px;
+    
+
+    justify-content: space-between;
+    align-items: center;
+}
+.introduction div button{
+    padding: 11px 14px;
+    background-color: var(--dark-orange);
+    color: white;
+    font-weight: 800;
+    border: none;
+    border-radius: 8px;
+    color: white;
+
+}
+
+.introduction div button:hover{
+    background-color: var(--light-orange);
+}
+
+.introduction div p{
+    font-weight: 900;
+}
+
+.sec1 .conatinerContainer2{
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: row-reverse;
+    overflow: hidden;
+    
+    
+
+}
+
+.sec1 .containerTeclado{
+    display: flex;
+    margin-right: -45px;
+    flex-grow: 0;
+    
+}
+
+
+.containerTeclado picture img{
+    border-radius: 10px;
+}
+
+.decoracao{
+    display: none;
+}
+
+
+
+@media screen and (min-width:720px){
+    .sec1{
+        margin-left: 40px;
+        gap: 69px;
+    }
+
+    .sec1 picture img {
+            width: 478px;
+            height: 425px;
+        }
+
+   
+    .conatinerContainer1 .introduction{
+        margin: 0;
+        flex: 1 1 auto;
+        max-width: 339px;
+        
+    }
+    .sec1 .introduction h1{
+        font-size: 56px;
+        line-height: 56px;
+    }
+    .sec1 .introduction p {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .sec1 .conatinerContainer2{
+        flex-direction: row;
+        overflow-x: hidden;
+    }
+   .sec1 .containerTeclado{
+        margin-right: -197px;
+        
+   }
+
+   .introduction div button{
+    padding: 16px 27px;
+   }
+}
+@media screen and (min-width:1400px) {
+    .sec1 {
+            width: 100vw;
+            margin-left:165px;
+            margin-right: 165px;
+            gap: 125px;
+            position: relative;
+        }
+    
+        .sec1 picture img {
+            width: 540px;
+            height: 480px;
+        }
+
+        .sec1 img.decoracao{
+            position: absolute;
+            display: block;
+            width: 255px;
+            height: 240px;
+            right: 0;
+            
+            
+            
+            
+        }
+    
+    
+        .conatinerContainer1 .introduction {
+            max-width: 445px;
+    
+        }
+    
+        
+    
+       
+    
+        
+}
