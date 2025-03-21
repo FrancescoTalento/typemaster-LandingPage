@@ -87,7 +87,7 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 ## 👤 Author
 
 - **GitHub**: [@Snou](https://github.com/FrancescoTalento)
- Website - [Tech Book Club](https://www.website.com)
+ Website - [Tech Book Club](https://francescotalento.github.io/typemaster-LandingPage/)
 - Linkedin - [Francesco Talento](https://www.linkedin.com/in/francesco-talento-a56b5b28b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
 ---
 
