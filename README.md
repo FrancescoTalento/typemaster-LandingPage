@@ -3,7 +3,7 @@
 
 ## 📌 Project Overview
 
-The **Typemaster Keyboard Landing Page** is a modern, responsive webpage designed to showcase the features and benefits of the Typemaster mechanical keyboard. This project was built as part of a Frontend Mentor challenge, focusing on providing an engaging and visually appealing UI with smooth interactions and responsiveness.
+The **Typemaster Keyboard Landing Page** is a modern, responsive webpage designed to showcase the features and benefits of the Typemaster mechanical keyboard. This project was built focusing on providing an engaging and visually appealing UI with smooth interactions and responsiveness.
 
 ### 🎯 Purpose
 - Display product features and details in a **clean and structured** layout.
